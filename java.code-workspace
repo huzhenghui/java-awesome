@@ -13,6 +13,7 @@
 		"**/.project": true,
 		"**/.settings": true,
 		"**/.factorypath": true
-	}
+	},
+	"maven.view": "hierarchical"
 }
 }
