@@ -48,6 +48,26 @@ https://github.com/huzhenghui/java-awesome/commit/156ba87ecea11adf9793f3228149d4
 ```xml
 	<repositories>
 		<repository>
+			<id>central</id>
+			<url>https://maven.aliyun.com/repository/central</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>jcenter</id>
+			<url>https://maven.aliyun.com/repository/public</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
 			<id>public</id>
 			<url>https://maven.aliyun.com/repository/public</url>
 			<releases>
@@ -135,6 +155,39 @@ mvn spring-boot:run
 
 ```bash
 open http://localhost:8080/
+```
+
+## maven-version
+
+```bash
+mvn --version
+```
+
+### output
+
+```plain
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: /usr/local/Cellar/maven/3.6.3_1/libexec
+Java version: 15.0.1, vendor: N/A, runtime: /usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home
+Default locale: zh_CN_#Hans, platform encoding: UTF-8
+OS name: "mac os x", version: "11.0.1", arch: "x86_64", family: "mac"
+```
+
+## code-maven-settings
+
+```bash
+code /usr/local/opt/maven/libexec/conf/settings.xml
+```
+
+### mirror
+
+```xml
+    <mirror>
+      <id>central-aliyun</id>
+      <mirrorOf>central</mirrorOf>
+      <name>central-aliyun</name>
+      <url>https://maven.aliyun.com/repository/central</url>
+    </mirror>
 ```
 
 ## trash-maven-repository
