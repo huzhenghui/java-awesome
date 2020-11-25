@@ -43,6 +43,8 @@ https://maven.aliyun.com/mvn/guide
 
 ### pom.xml
 
+https://github.com/huzhenghui/java-awesome/commit/156ba87ecea11adf9793f3228149d44c9447046c#diff-34696784bf09af3bab94e837c0652263252c4f659621e4cf0bd09b064adf693f
+
 ```xml
 	<repositories>
 		<repository>
