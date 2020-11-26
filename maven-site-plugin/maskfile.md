@@ -76,6 +76,8 @@ https://github.com/huzhenghui/java-awesome/commit/b78af729b135ece3adcb5860a2d858
 
 ## 6-mvn-help-effective-pom-plugins
 
+> 6.有效 POM 中的插件列表
+
 ```bash
 cd ./use-maven-site-plugin
 tempfile="$(/usr/bin/mktemp)"
@@ -98,6 +100,8 @@ org.apache.maven.plugins:maven-deploy-plugin:2.8.2
 ```
 
 ## 7-mvn-help-describe-maven-site-plugin
+
+> 7.maven-site-plugin 描述
 
 ```bash
 mask 6-mvn-help-effective-pom-plugins |
@@ -188,6 +192,8 @@ For more information, run 'mvn help:describe [...] -Ddetail'
 
 ## mvn-site-help
 
+> maven-site-plugin 帮助
+
 ```bash
 cd ./use-maven-site-plugin
 mvn site:help
@@ -258,6 +264,8 @@ site:help
 ```
 
 ## mvn-site-effective-site
+
+> 有效站点信息
 
 ```bash
 cd ./use-maven-site-plugin
@@ -386,6 +394,8 @@ Effective site descriptor, after inheritance and interpolation:
 ```
 
 ## mvn-site-jar
+
+> 站点输出为 JAR
 
 ```bash
 cd ./use-maven-site-plugin
@@ -680,6 +690,8 @@ site:jar
 
 ## mvn-site-run
 
+> 启动站点
+
 ```bash
 cd ./use-maven-site-plugin
 mvn site:run
@@ -880,6 +892,8 @@ site:run
 ```
 
 ## mvn-site-site
+
+> 为单个项目生成站点
 
 ```bash
 cd ./use-maven-site-plugin
@@ -1094,6 +1108,8 @@ site:site
 ```
 
 ## open-site
+
+> 打开生成的站点
 
 ```bash
 open ./use-maven-site-plugin/target/site/index.html
