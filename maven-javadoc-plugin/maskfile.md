@@ -20,6 +20,10 @@
 export LOCATION_NAME=use-maven-javadoc-plugin
 ```
 
+基础文档
+
+    https://github.com/huzhenghui/java-awesome/blob/master/maven-site-plugin/maskfile.md
+
 # 步骤
 
 ## 1-spring-init
