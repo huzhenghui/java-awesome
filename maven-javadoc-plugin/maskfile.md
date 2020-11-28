@@ -301,7 +301,7 @@ open ./"${LOCATION_NAME}"/target/site/index.html
 
 ## open-project-reports
 
-> 打开生成的站点
+> 打开生成的项目报告
 
 ```bash
 open ./"${LOCATION_NAME}"/target/site/project-reports.html
